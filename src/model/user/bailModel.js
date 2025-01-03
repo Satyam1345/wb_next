@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 const bailSchema = new mongoose.Schema({
+    // Lawyer name and aadhar card- auto fetch
     aadharNo: {
         type: String,
         required: true,
