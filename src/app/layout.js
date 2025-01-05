@@ -1,5 +1,7 @@
 // src/app/layout.js
 import './globals.css';
+
+import { AuthProvider } from '@/context/authContext';
 export const metadata = {
   title: 'My Next.js App',
   description: 'A modern Next.js app with the App Router.',

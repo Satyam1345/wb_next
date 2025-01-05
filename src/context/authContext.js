@@ -1,7 +1,7 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 
-const BASE_URL = process.env.BASE_URL ;
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL ;
 
 const AuthContext = createContext();
 
@@ -21,7 +21,7 @@ export const AuthProvider = ({ children }) => {
 
   const refreshAccessToken = async () => {
     try {
-      const response = await axios.post(`${BASE_URL}/api/auth/token/refresh/`, {
+      const response = await axios.post(`/api/auth/token/refresh/`, {
         refresh: refreshToken,
       });
   
