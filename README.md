@@ -24,24 +24,34 @@ AWS Deployement Working Prototype Video Link - https://github.com/user-attachmen
 - View warrants issued against you and your close relatives.
 - Track warrants using your **Aadhar Card**.
 - Stay informed about **fraudulent calls** and **spam messages** threatening legal actions.
+- **username:** User@gmail.com  
+- **password:** superpassword
 
 ### Lawyer
 - Submit **bail applications**.
 - Assist clients with legal processes via the dashboard.
+- **username:** Lawyer@gmail.com  
+- **password:** superpassword
 
 ### Police
 - Access warrants issued for your respective **Police Station**.
 - Track real-time data and take actions accordingly.
 - Process bail requests forwarded to your Police Station.
+- **username:** Police@gmail.com  
+- **password:** superpassword
 
 ### Judge
 - Issue warrants against an accused.
 - Approve or reject bail requests.
 - Digitally sign documents and provide an authorized copy to beneficiaries.
+- **username:** Judge@gmail.com  
+- **password:** superpassword
 
 ### SuperUser
 - Manage users and system configurations.
 - Create, delete, and update user roles for platform users.
+- **username:** superuser@gmail.com  
+- **password:** superpassword
 
 ---
 
